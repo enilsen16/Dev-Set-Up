@@ -17,7 +17,7 @@ brew install findutils
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 #Edit path to use these new tools
-$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+# $PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 
 binaries=(
 
