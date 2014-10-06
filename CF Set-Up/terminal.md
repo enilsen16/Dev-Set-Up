@@ -1,7 +1,7 @@
 Setup for Mac OS X
 ------------------
 
-This guide will help you setup a Ruby development environment on [Mac OS X 10.9 Mavericks](https://www.apple.com/osx/).
+This guide will help you setup a Ruby development environment on [Mac OS X 10.10 Yosemite](https://www.apple.com/osx/).
 
 Older versions of OS X are mostly compatible so follow along as far as you can and then Google search any problems you come across. There are plenty of people who have documented solutions for them.
 
@@ -50,29 +50,3 @@ Here's what happened:
 1. Once finished, the `uname` program exited, handing control of the Terminal back to the shell.
 1. The shell told the Terminal to display another prompt.
 1. Once displayed, the shell began waiting for the next user command.
-
-
-Here's a diagram that outlines each step:
-
-**TODO:** Insert diagram
-
-### Change the Terminal Profile
-
-The default Terminal Profile uses small, black text on a white background. Boring!
-
-To change your profile to something more exciting:
-
-1. Download the [Tomorrow Night Eighties](https://raw.githubusercontent.com/ryansobol/sea-c17-ruby/master/class1/osx/Tomorrow%20Night%20Eighties.terminal) terminal profile.
-1. Install the profile by double-clicking the file.
-1. At the top of the screen, navigate to the `Terminal > Preferences` menu item.
-1. In the preferences window, click the `Settings` Pane.
-1. On the left side, scroll to the bottom and select the `Tommorrow Night Eighties` profile.
-1. Then click the `Default` button.
-
-When you're done, the preferences window should look like this:
-
-![](https://i.imgur.com/ylohQgf.png)
-
-And every new Terminal window that you open should look like this:
-
-![](https://i.imgur.com/eOy5Hzv.png)
